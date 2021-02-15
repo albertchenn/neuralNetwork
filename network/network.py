@@ -21,7 +21,7 @@ class myFirstNetwork():
         self.inputHiddenWeightsMatrix = np.random.normal(0.0, pow(self.hiddenNodes, -0.5), (self.hiddenNodes, self.inputNodes))
         self.hiddenOutputWeightsMatrix = np.random.normal(0.0, pow(self.outputNodes, -0.5), (self.outputNodes, self.hiddenNodes))
 
-        # set activiation function
+        # set activation function
 
         self.activationFunction = lambda x: sp.expit(x)
         pass
